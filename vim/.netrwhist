@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/opt/ros/lunar/lib/rviz'
+let g:netrw_dirhist_2='/opt/ros/lunar/lib'
+let g:netrw_dirhist_3='/opt/ros/lunar'
+let g:netrw_dirhist_4='/opt/ros/lunar/include'
+let g:netrw_dirhist_5='/opt/ros/lunar/include/rviz'
+let g:netrw_dirhist_6='/opt/ros/lunar/include/rviz/default_plugin'
+let g:netrw_dirhist_7='/opt/ros/lunar/include/rviz/default_plugin/view_controllers'
+let g:netrw_dirhist_8='/home/james/rnlab/catkin_ws/src/gnss_visualization/rviz'
+let g:netrw_dirhist_9='/home/james/rnlab/git/YogaDemoRunner/install_scripts'
