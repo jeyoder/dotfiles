@@ -41,6 +41,9 @@ filetype plugin indent on    " required
 " Enable syntax hilighting
 syntax on
 
+" Show trailing whitepace and spaces before a tab:
+:autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/
+
 " Color scheme setting
 let g:solarized_visibility = "high"
 let g:solarized_contrast = "high"
@@ -115,3 +118,6 @@ set backspace=indent,eol,start
 ":set mouse=a
 
 :set relativenumber
+
+" Set gvim font
+:set gfn=Monospace\ 9
