@@ -120,12 +120,17 @@ fi
 alias zzz='sudo tlp bat; sleep 10; sudo tlp ac'
 alias o='xdg-open'
 
+alias unspacex='/home/james/ldata/RNLab/pprx/unspacex.sh'
+alias respacex='/home/james/ldata/RNLab/pprx/respacex.sh'
+
 title() {
     export TITLE="$1"
     exec bash
 }
 
+source /opt/ros/noetic/setup.bash
 #source /home/james/data/RNLab/quad-simulation-workspace/build/devel/setup.bash
 
-#export ROS_MASTER_URI="http://192.168.1.101:11311"
-export ROS_MASTER_URI="http://127.0.0.1:11311"
+export ROS_MASTER_URI="http://192.168.1.101:11311"
+export ROS_IP="192.168.1.236"
+#export ROS_MASTER_URI="http://127.0.0.1:11311"

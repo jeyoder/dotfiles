@@ -121,3 +121,6 @@ set backspace=indent,eol,start
 
 " Set gvim font
 :set gfn=Monospace\ 9
+
+" Auto cd to directory of open file
+:set autochdir 
