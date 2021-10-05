@@ -125,6 +125,7 @@ alias respacex='/home/james/ldata/RNLab/pprx/respacex.sh'
 
 title() {
     export TITLE="$1"
+    tmux rename-window "$1"
     exec bash
 }
 
