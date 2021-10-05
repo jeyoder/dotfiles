@@ -42,7 +42,8 @@ filetype plugin indent on    " required
 syntax on
 
 " Show trailing whitepace and spaces before a tab:
-:autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/
+:autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/ containedin=ALL
+:autocmd ColorScheme * highlight ExtraWhitespace ctermbg=232 guibg=#1c1c1c
 
 " Color scheme setting
 let g:solarized_visibility = "high"
@@ -111,7 +112,7 @@ set backspace=indent,eol,start
 " Show a save unsaved changes asking thinbg
 :set confirm
 
-" ding ding 
+" ding ding
 :set visualbell
 
 " mousey mouse mouse
@@ -123,4 +124,4 @@ set backspace=indent,eol,start
 :set gfn=Monospace\ 9
 
 " Auto cd to directory of open file
-:set autochdir 
+:set autochdir
