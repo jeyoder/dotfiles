@@ -1,1 +1,4 @@
 vim/bundle/YouCompleteMe
+vim/bundle/Vundle.vim
+vim/bundle/vim-airline*
+vim/.netrwhist
