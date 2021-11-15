@@ -125,3 +125,6 @@ set backspace=indent,eol,start
 
 " Auto cd to directory of open file
 :set autochdir
+
+" No line wrapping
+:set nowrap
